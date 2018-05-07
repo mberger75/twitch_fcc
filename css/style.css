@@ -1,0 +1,130 @@
+html {
+  height: 100%;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  background: url('https://wallpaperlayer.com/img/2015/1/blurred-wallpaper-background-7609-7903-hd-wallpapers.jpg') no-repeat;
+  background-attachment: fixed;
+  font-family: Arial;
+  color: #ffffff;
+}
+
+.header {
+  margin-top: 40px;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+h2 {
+  padding-bottom: 25px;
+}
+
+#tLogo {
+  width: 280px;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+.selector {
+  background-color: 
+    rgba(255, 233, 236, 0.1);
+  color: #ffffff;
+  margin-bottom: 50px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-align: center;
+  font-size: 21px;
+  border: 1px solid #ffffff;
+  transition: 0.1s;
+}
+
+.selector:hover {
+  background-color: 
+    rgba(255, 233, 236, 0.2);
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.online {
+  background-color: 
+    rgba(180,255,157, 0.1);
+  transition: 0.2s;
+}
+
+.online:hover {
+  box-shadow: 
+    3px 3px 80px #efffea;
+  background-color: 
+    rgba(180,255,157, 0.2);
+  transition: 0.3s;
+}
+
+.offline {
+  background-color: 
+    rgba(255,3,62, 0.1);
+  opacity: 0.8;
+  transition: 0.2s;
+}
+
+.offline:hover {
+  box-shadow: 
+    3px 3px 80px hotpink;
+  background-color: 
+    rgba(255, 233, 236, 0.2);
+  opacity: 1;
+  transition: 0.3s;
+}
+
+.hidden {
+  display: none;
+}
+
+.active {
+  background-color: 
+    rgba(255, 233, 236, 0.2);
+}
+
+#link {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+#streamerList {
+  text-align: center;
+  list-style-type: none;
+  padding: 1px;
+  margin-bottom: 1px;
+}
+
+#streamerList li {
+  padding: 5px;
+  background-color: 
+    rgba(255, 233, 236, 0.1);
+}
+
+#name {
+  font-size: 23px;
+}
+
+.logo {
+  width: 90px;
+  height: 90px;
+  padding: 5px;
+  border-radius: 50%;
+  transition: 0.2s;
+}
+
+#streaming {
+  height: 40px;
+}
+
+#footer {
+  font-size: 17px;
+  text-align: center;
+  margin-top: 50px;
+  height: 50px;
+}
